@@ -12,9 +12,7 @@ p{ width: 300px; font-size: 14px; font-style: italic; }
 .content-style { padding-left: 12px; }
 .clickable { cursor: pointer; }
 
-.step_1_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
-.step_2_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
-.step_3_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
+.step_1_legend, .step_2_legend, .step_3_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
 
 .step_1 { background: rgb(180,236,204); color: black; border: 0px solid black; width: 320px; margin: 10px; padding: 10px; height: 100%; overflow:hidden; }
 .step_2 { background: rgb(181,240,243); color: black; border: 0px solid black; width: 320px; margin: 10px; height: 100%; overflow:hidden; }
