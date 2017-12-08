@@ -98,6 +98,7 @@ function toggleName(){
 // Check Special Accommodation both should be enabled then step 3 enabled
 function specialAccommodations() {
     if ($("#special_accommodations_toggle_on").is(":checked") || $("#special_accommodations_toggle_off").is(":checked")) {
+        if($('#special_accomodations_text').val().trim().length > 0) {
             $('#checkbox2').show("slide", { direction: "up" }, 500);
             $('#step_3').prop('disabled', false);
             $('#step_3').removeClass('bg-disable');
@@ -105,6 +106,7 @@ function specialAccommodations() {
             $('#step_3').css("background","rgb(237,203,180)");
             $("#rock").addClass('clickable');
         }
+    }
 }
 
 // Toggle Accommodation for text field and step 3 enabled
@@ -112,6 +114,7 @@ function toggleAccommodation(){
     if ($("#special_accommodations_toggle_on").is(":checked")) {
         $('#special_accommodations_wrap').show('Slow');
         if ($('#special_accomodations_text').val().trim().length > 0) {
+            debugger
         }else{
             $('#checkbox2').hide('Slow');
             $('#step_3').prop('disabled', true);

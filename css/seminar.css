@@ -1,10 +1,10 @@
 /*Seminar CSS */
 body { background: rgb(54, 54, 54); font-family: Arial, Helvetica, sans-serif; color: white; font-size: 14px; margin: 10px; padding:10px; position: relative; }
 label { font-style: italic; line-height: 25px; }
+legend { background: white; border-radius: 10px; width: 60px; line-height: 30px; padding-left: 12px; font-weight: bold; font-size: 16px; }
+
 h3 { font-size: 16px; line-height: 4px; margin-top: 20px; }
 p{ width: 300px; font-size: 14px; font-style: italic; }
-
-legend { background: white; border-radius: 10px; width: 60px; line-height: 30px; padding-left: 12px; font-weight: bold; font-size: 16px; }
 
 .font-label { font-size: 12px; }
 .text-reg { color: rgb(74,153,209); }
@@ -12,104 +12,20 @@ legend { background: white; border-radius: 10px; width: 60px; line-height: 30px;
 .content-style { padding-left: 12px; }
 .clickable { cursor: pointer; }
 
+.step_1_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
+.step_2_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
+.step_3_legend { border: 1px solid white; background: white; border-radius: 10px; color: black; width: 52px; line-height: 30px; padding-left: 6px; font-weight: bold; }
 
-.step_1_legend {
-    border: 1px solid white;
-    background: white;
-    border-radius: 10px;
-    color: black;
-    width: 52px;
-    line-height: 30px;
-    padding-left: 6px;
-    font-weight: bold;
-}
-.step_2_legend {
-    border: 1px solid white;
-    background: white;
-    border-radius: 10px;
-    color: black;
-    width: 52px;
-    line-height: 30px;
-    padding-left: 6px;
-    font-weight: bold;
-}
+.step_1 { background: rgb(180,236,204); color: black; border: 0px solid black; width: 320px; margin: 10px; padding: 10px; height: 100%; overflow:hidden; }
+.step_2 { background: rgb(181,240,243); color: black; border: 0px solid black; width: 320px; margin: 10px; height: 100%; overflow:hidden; }
+.bg-disable { background: rgb(110,123,127); }
 
-.step_3_legend {
-    border: 1px solid white;
-    background: white;
-    border-radius: 10px;
-    color: black;
-    width: 52px;
-    line-height: 30px;
-    padding-left: 6px;
-    font-weight: bold;
-}
+.bg-legend { background-color: rgb(110,123,127); border: 0.5px solid rgb(139, 144, 146); }
+.step_3 { color: black; border: 0px solid black; width: 280px; margin: 10px; padding: 10px; height: 100%; overflow:hidden; }
+.page-wrap { background:rgb(180, 236, 204); background-color: white; }
 
-.step_1 {
-    background: rgb(180,236,204);
-    color: black;
-    border: 0px solid black;
-    width: 320px;
-    margin: 10px;
-    padding: 10px;
-    height: 100%;
-    overflow:hidden;
-}
-
-.step_2 {
-    background: rgb(181,240,243);
-    color: black;
-    border: 0px solid black;
-    width: 320px;
-    margin: 10px;
-    height: 100%;
-    overflow:hidden;
-}
-
-.bg-disable {
-    background: rgb(110,123,127);
-}
-
-.bg-legend {
-    background-color: rgb(110,123,127);
-    border: 0.5px solid rgb(139, 144, 146);
-}
-
-.step_3 {
-    color: black;
-    border: 0px solid black;
-    width: 280px;
-    margin: 10px;
-    padding: 10px;
-    height: 100%;
-    overflow:hidden;
-} 
-
-.page-wrap {
-    background:rgb(180, 236, 204);
-    background-color: white;
-}
-
-.checkbox {
-    width: 70px;
-    box-shadow: 1px 2px #888888;
-    height: 70px;
-    top: 5px;
-    margin: auto;
-    border: 0.5px solid white;
-    border-radius: 100px;
-    position: relative;
-    background: rgb(193,251,188);
-    display: none;
-}
-.checkbox i {
-    left: 10px;
-    font-size: 50px;
-    position: absolute;
-    top: 10px;
-    color: rgb(110,194,51);
-}
-
+.checkbox { width: 70px; box-shadow: 1px 2px #888888; height: 70px; top: 5px; margin: auto; border: 0.5px solid white; border-radius: 100px; position: relative; background: rgb(193,251,188); display: none; }
+.checkbox i { left: 10px; font-size: 50px; position: absolute; top: 10px; color: rgb(110,194,51); }
 .attendee_container .attendee_1_wrap, .attendee_2_wrap, .attendee_3_wrap, .attendee_4_wrap, .attendee_5_wrap, .company_name_wrap, special_accommodations_wrap {
     display: none;
 }
